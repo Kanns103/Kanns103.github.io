@@ -15,7 +15,7 @@
     <dependencies>
         <dependency>mobilesubstrate or com.ex.substitute</dependency>
         <dependency>preferenceloader</dependency>
-        <dependency>Cephei Tweak Support</dependency>
+        <dependency>ws.hbang.common</dependency>
     </dependencies>
     <changelog>
         <change>
