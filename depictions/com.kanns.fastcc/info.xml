@@ -1,13 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
 <packageInfo>
-    <bundleId>com.kanns.fastcc</bundleId>
     <name>FastCC</name>
     <version>1.0.0</version>
     <descriptions>
         <description>
-            Tweak to speed up your control center
-        </description>
-        <description>
-            This tweak changes the tension of your control center. It works with prysm and other cc support.
+            Speed up your control center
         </description>
     </descriptions>
     <compatibility>
@@ -15,15 +13,25 @@
         <maxiOS>14.3</maxiOS>
     </compatibility>
     <dependencies>
-        <dependency>mobilesubstrate</dependency>
-        <dependency>ws.hbang.common</dependency>
+        <dependency>mobilesubstrate or com.ex.substitute</dependency>
         <dependency>preferenceloader</dependency>
-        <dependency>com.rpetrich.rocketbootstrap</dependency>
+        <dependency>Cephei Tweak Support</dependency>
     </dependencies>
     <changelog>
         <change>
-            <changeVersion>1.0.0</changeVersion>
-            <changeDescription>Initial release</changeDescription>
+            <changeVersion>v1.0.0</changeVersion>
+            <changeDescription>Initial Release</changeDescription>
         </change>
     </changelog>
+    <information>
+        <developer>Kanns</developer>
+        <price>Free</price>
+        <category>Tweaks</category>
+    </information>
+    <links>
+        <github>https://github.com/Kanns103</github>
+        <twitter>https://twitter.com/Kanns</twitter>
+        <reddit>https://www.reddit.com/user/Be-10</reddit>
+        <mail>mailto:kannsbusiness@yahoo.com</mail>
+    </links>
 </packageInfo>
