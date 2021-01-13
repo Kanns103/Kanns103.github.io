@@ -1,0 +1,29 @@
+<packageInfo>
+    <bundleId>com.kanns.fastcc</bundleId>
+    <name>FastCC</name>
+    <version>1.0.0</version>
+    <descriptions>
+        <description>
+            Tweak to speed up your control center
+        </description>
+        <description>
+            This tweak changes the tension of your control center. It works with prysm and other cc support.
+        </description>
+    </descriptions>
+    <compatibility>
+        <miniOS>11.0</miniOS>
+        <maxiOS>14.3</maxiOS>
+    </compatibility>
+    <dependencies>
+        <dependency>mobilesubstrate</dependency>
+        <dependency>ws.hbang.common</dependency>
+        <dependency>preferenceloader</dependency>
+        <dependency>com.rpetrich.rocketbootstrap</dependency>
+    </dependencies>
+    <changelog>
+        <change>
+            <changeVersion>1.0.0</changeVersion>
+            <changeDescription>Initial release</changeDescription>
+        </change>
+    </changelog>
+</packageInfo>
