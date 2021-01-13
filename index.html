@@ -55,3 +55,47 @@ body, html {
 <body style="background-color:grey;">
 </body>
 </html>
+
+<!DOCTYPE html> 
+<html> 
+   
+<head> 
+    <title> 
+        How to create fade-in effect 
+        on page load using CSS 
+    </title> 
+   
+    <style> 
+        body { 
+            animation: fadeInAnimation ease 3s; 
+            animation-iteration-count: 1; 
+            animation-fill-mode: forwards; 
+        } 
+        @keyframes fadeInAnimation { 
+            0% { 
+                opacity: 0; 
+            } 
+            100% { 
+                opacity: 1; 
+            } 
+        } 
+    </style> 
+</head> 
+   
+<body> 
+    <h1 style="color: green"> 
+        GeeksForGeeks 
+    </h1> 
+      
+    <b> 
+        How to create fade-in effect 
+        on page load using CSS 
+    </b> 
+      
+    <p> 
+        This page will fade in 
+        after loading 
+    </p> 
+</body> 
+   
+</html> 
