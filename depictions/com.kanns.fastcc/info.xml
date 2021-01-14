@@ -1,11 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE xml>
 <packageInfo>
+    <bundleId>com.kanns.FastCC</bundleId>
     <name>FastCC</name>
     <version>1.0.0</version>
     <descriptions>
         <description>
-            Speed up your control center
+            Tweak to speed up control center
+        </description>
+        <description>
+            This tweak speeds up your control center by reducing the tension
         </description>
     </descriptions>
     <compatibility>
@@ -13,25 +15,18 @@
         <maxiOS>14.3</maxiOS>
     </compatibility>
     <dependencies>
-        <dependency>mobilesubstrate or com.ex.substitute</dependency>
+        <dependency>mobilesubstrate</dependency>
         <dependency>preferenceloader</dependency>
-        <dependency>ws.hbang.common</dependency>
     </dependencies>
     <changelog>
         <change>
-            <changeVersion>v1.0.0</changeVersion>
+            <changeVersion>V0.0.2 </changeVersion>
+            <changeDescription>An important change</changeDescription>
+            <changeDescription>Another important change</changeDescription>
+        </change>
+        <change>
+            <changeVersion>V0.0.1</changeVersion>
             <changeDescription>Initial Release</changeDescription>
         </change>
     </changelog>
-    <information>
-        <developer>Kanns</developer>
-        <price>Free</price>
-        <category>Tweaks</category>
-    </information>
-    <links>
-        <github>https://github.com/Kanns103</github>
-        <twitter>https://twitter.com/Kanns</twitter>
-        <reddit>https://www.reddit.com/user/Be-10</reddit>
-        <mail>mailto:kannsbusiness@yahoo.com</mail>
-    </links>
 </packageInfo>
