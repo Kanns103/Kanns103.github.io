@@ -227,3 +227,27 @@ body, html {
 
 </body>
 </html>
+
+<h2>Packages</h2>
+    <section id="packages"></section>
+    <h2>Devices</h2>
+    <section id="devices">
+        <table>
+            <tbody id="devices-list"></tbody>
+        </table>
+    </section>
+    <footer>
+        <script>document.write("<p>© Copyright 2020-" + new Date().getFullYear() + " • Redentic</p>")</script>
+    </footer>
+
+    <script src="getPackages.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script>
+        getContentOfURL("https://raw.githubusercontent.com/RedenticDev/RedenticDev/master/README.md").then(res => {
+            document.getElementById("markdown").innerHTML = marked(res);
+        });
+    </script>
+    <script src="scrollToTop.js"></script>
+</body>
+
+</html>
