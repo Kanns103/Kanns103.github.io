@@ -409,97 +409,39 @@ a:active {
 </body>
 </html>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
-<title>Simple Dropdown Menu - W3jar.Com</title>
-<style>
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-}
-
-body {
-  font-family: sans-serif;
-  margin: 0;
-  padding: 0;
-  background: #f2f2f2;
-}
-
-.dropdown {
-  margin: 0;
-  padding: 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  list-style: none;
-  height: 50px;
-  background-color: #333333;
-}
-
-.dropdown li {
-  position: relative;
-}
-
-.dropdown li a {
-  display: block;
-  padding: 0 10px;
-  height: 50px;
-  line-height: 50px;
-  color: #ffffff;
-  cursor: pointer;
-  text-decoration: none;
-}
-
-.dropdown li ul {
-  display: none;
-  position: absolute;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  background-color: #444444;
-  width: 200px;
-  left: 0;
-}
-
-.dropdown li ul li a {
-  height: 35px;
-  line-height: 35px;
-  color: #999;
-}
-
-.dropdown li ul li a:hover {
-  background-color: rgba(23, 23, 23, 0.9);
-  color: #ffffff;
-}
-
-.dropdown li:hover>ul {
-  display: block;
-}
-
-.dropdown li:hover>a {
-  background-color: #ffffff;
-  color: #222222;
-}
-</style>
-</head>
-<body>
-    <ul class="dropdown">
-        <li><a href="#">Dropdown</a>
-            <ul>
-                <li><a href="#">Menu - 1</a></li>
-                <li><a href="#">Menu - 2</a></li>
-                <li><a href="#">Menu - 3</a></li>
-                <li><a href="#">Menu - 4</a></li>
-            </ul>
-        </li>
+<h1>Smooth Accordion Dropdown Menu Demo</h1>
+<!-- Contenedor -->
+<ul id="accordion" class="accordion">
+  <li>
+    <div class="link"><i class="fa fa-database"></i>Web Design<i class="fa fa-chevron-down"></i></div>
+    <ul class="submenu">
+      <li><a href="#">Photoshop</a></li>
+      <li><a href="#">HTML</a></li>
+      <li><a href="#">CSS</a></li>
     </ul>
-</body>
-</html>
+  </li>
+  <li>
+    <div class="link"><i class="fa fa-code"></i>Coding<i class="fa fa-chevron-down"></i></div>
+    <ul class="submenu">
+      <li><a href="#">Javascript</a></li>
+      <li><a href="#">jQuery</a></li>
+      <li><a href="#">Ruby</a></li>
+    </ul>
+  </li>
+  <li>
+    <div class="link"><i class="fa fa-mobile"></i>Devices<i class="fa fa-chevron-down"></i></div>
+    <ul class="submenu">
+      <li><a href="#">Tablet</a></li>
+      <li><a href="#">Mobile</a></li>
+      <li><a href="#">Desktop</a></li>
+    </ul>
+  </li>
+  <li>
+    <div class="link"><i class="fa fa-globe"></i>Global<i class="fa fa-chevron-down"></i></div>
+    <ul class="submenu">
+      <li><a href="#">Google</a></li>
+      <li><a href="#">Bing</a></li>
+      <li><a href="#">Yahoo</a></li>
+    </ul>
+  </li>
+</ul>
