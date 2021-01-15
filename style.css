@@ -6,3 +6,8 @@
 #more {
 	display: none;
 }
+
+.container {
+	width: 1200px;
+	margin: auto;
+}
