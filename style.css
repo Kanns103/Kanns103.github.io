@@ -11,27 +11,3 @@
 	width: 1200px;
 	margin: auto;
 }
-
-li {
-    margin-bottom: 10px;
-}
-
-.Twitter {
-    display: inline-block;
-    color: #000;
-    text-decoration: none;
-}
-
-.Twitter::after {
-    content: '';
-    display: block;
-    width: 0;
-    height: 2px;
-    background: #000;
-    transition: width .3s;
-}
-
-.Twitter:hover::after {
-    width: 100%;
-    //transition: width .3s;
-}
