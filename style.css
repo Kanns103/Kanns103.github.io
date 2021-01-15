@@ -16,13 +16,13 @@ li {
     margin-bottom: 10px;
 }
 
-.cool-link {
+.Twitter {
     display: inline-block;
     color: #000;
     text-decoration: none;
 }
 
-.cool-link::after {
+.Twitter::after {
     content: '';
     display: block;
     width: 0;
@@ -31,7 +31,7 @@ li {
     transition: width .3s;
 }
 
-.cool-link:hover::after {
+.Twitter:hover::after {
     width: 100%;
     //transition: width .3s;
 }
