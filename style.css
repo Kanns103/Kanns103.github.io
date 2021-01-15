@@ -6,3 +6,8 @@
 #more {
 	display: none;
 }
+
+.stylesheet {
+	width: 1200px;
+	margin: auto;
+}
