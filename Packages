@@ -10,3 +10,4 @@ Maintainer: kanns
 Author: kanns
 Section: Tweaks
 Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.kanns.fastcc.deb
