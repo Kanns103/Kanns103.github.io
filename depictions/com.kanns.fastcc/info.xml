@@ -16,7 +16,7 @@
         </description>
     </descriptions>
     <compatibility>
-        <miniOS>13.0</miniOS>
+        <miniOS>11.0</miniOS>
         <maxiOS>14.3</maxiOS>
     </compatibility>
     <dependencies>
