@@ -1,0 +1,19 @@
+Package: com.kanns.fastcc
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: kanns
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.kanns.fastcc_1.0.0_iphoneos-arm.deb
+Size: 2956
+MD5sum: ee6c482d43a1c12f07f4b59f8110655c
+SHA1: f59b30a49c155a0b0499d52e675baa9f32599f39
+SHA256: 0d50257441cdac222ebdfa2a961e1e2b8ea9f4b8b3a0c274472266293af62f24
+Section: Tweaks
+Description: Speed up your control center
+Author: kanns
+Depiction: https://Kanns103.github.io/depictions/?p=com.kanns.fastcc
+Icon: https://Kanns103.github.io/depictions/com.kanns.fastcc/icon.png
+Name: FastCC
+Sileodepiction: https://Kanns103.github.io/depictions/com.kanns.fastcc/sileo.json
+
