@@ -17,3 +17,22 @@ Icon: https://Kanns103.github.io/depictions/com.kanns.fastcc/icon.png
 Name: FastCC
 Sileodepiction: https://Kanns103.github.io/depictions/com.kanns.fastcc/sileo.json
 
+Package: com.kanns.goawaysep
+Version: 1.2
+Architecture: iphoneos-arm
+Maintainer: kanns
+Installed-Size: 320
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.kanns.goawaysep_1.2_iphoneos-arm.deb
+Size: 13458
+MD5sum: 000163c12bc8b401701b47d684dfaa2e
+SHA1: 7964b7d8097cfb56dd11cbdd5b87e861c648f087
+SHA256: 072987bedae94a93afcfd78c53258716e7e42ca3bcd7f7f1823affb93e14eda0
+Section: Tweaks
+Description: A tweak to remove seperator lines system wide.
+Author: kanns
+Depiction: https://Kanns103.github.io/depictions/?p=com.kanns.goawaysep
+Icon: https://Kanns103.github.io/depictions/com.kanns.goawaysep/icon.png
+Name: GoAwaySep
+Sileodepiction: https://Kanns103.github.io/depictions/com.kanns.goawaysep/sileo/json
+
