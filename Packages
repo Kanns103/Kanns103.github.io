@@ -17,6 +17,25 @@ Icon: https://Kanns103.github.io/depictions/com.kanns.fastcc/icon.png
 Name: FastCC
 Sileodepiction: https://Kanns103.github.io/depictions/com.kanns.fastcc/sileo.json
 
+Package: com.kanns.fastraise
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: kanns
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.kanns.fastraise_1.0.0_iphoneos-arm.deb
+Size: 2972
+MD5sum: b37b0902aaea9d4434f1014088e4c57c
+SHA1: 8c2b6e74e1d10c8aacd235603fdaa771f681df96
+SHA256: cfa27566a59cc3fbd89cb4270a89347da9171f220c7f684a5b9848b687f370ab
+Section: Tweaks
+Description: Speed up your raise to wake
+Author: kanns
+Depiction: https://Kanns103.github.io/depictions/?p=com.kanns.fastraise
+Icon: https://Kanns103.github.io/depictions/com.kanns.fastraise/icon.png
+Name: FastRaise
+Sileodepiction: https://Kanns103.github.io/depictions/com.kanns.fastraise/sileo.json
+
 Package: com.kanns.goawaysep
 Version: 1.2
 Architecture: iphoneos-arm
