@@ -1,0 +1,12 @@
+Package: com.kanns.fastcc
+Name: FastCC
+Version: 1.0.0
+Architecture: iphoneos-arm
+Description: Speed up your control center
+Icon: https://Kanns103.github.io/depictions/com.kanns.fastcc/icon.png
+Depiction: https://Kanns103.github.io/depictions/?p=com.kanns.fastcc
+SileoDepiction: https://Kanns103.github.io/depictions/com.kanns.fastcc/sileo.json
+Maintainer: kanns
+Author: kanns
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
