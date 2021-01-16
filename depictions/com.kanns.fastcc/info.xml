@@ -8,14 +8,14 @@
             Speed up your control center
         </description>
         <description>
-            The tweak speeds up the opening time and responsiveness of your control center by reducing the tension
+            This tweak speeds up your control center by reducing the tension.
         </description>
         <description>
             No options to configure.
         </description>
     </descriptions>
     <compatibility>
-        <miniOS>11.0</miniOS>
+        <miniOS>13.0</miniOS>
         <maxiOS>14.3</maxiOS>
     </compatibility>
     <dependencies>
@@ -33,7 +33,7 @@
         <category>Tweaks</category>
     </informations>
     <links>
-        <github>https://github.com/Kanns103</github>
+        <github>https://Kanns103.github.io</github>
         <twitter>https://twitter.com/Kanns103</twitter>
         <reddit>https://www.reddit.com/user/be-10</reddit>
         <mail>mailto:kannsbusiness@yahoo.com</mail>
