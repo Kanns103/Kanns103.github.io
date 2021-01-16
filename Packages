@@ -36,3 +36,22 @@ Icon: https://Kanns103.github.io/depictions/com.kanns.goawaysep/icon.png
 Name: GoAwaySep
 Sileodepiction: https://Kanns103.github.io/depictions/com.kanns.goawaysep/sileo/json
 
+Package: com.kanns.widgetcustoms
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: kanns
+Installed-Size: 740
+Depends: ws.hbang.common, preferenceloader, com.rpetrich.rocketbootstrap, org.thebigboss.libcolorpicker
+Filename: ./debs/com.kanns.widgetcustoms_1.0.0_iphoneos-arm.deb
+Size: 293894
+MD5sum: cda74445f688a3f960da8ef42076d1eb
+SHA1: 8e74eb11ee376a45554c687e69223196421f13be
+SHA256: 473ed716ed7d4e230e008fb6cb2ad356c5b05d5a83b73e69d403b94dce5fd251
+Section: Tweaks
+Description: Customise your ios 14 widgets
+Author: kanns
+Depiction: https://Kanns103.github.io/depictions/?p=com.kanns.widgetcustoms
+Icon: https://Kanns103.github.io/depictions/com.kanns.widgetcustoms/icon.png
+Name: WidgetCustoms
+Sileodepiction: https://Kanns103.github.io/depictions/com.kanns.widgetcustoms/sileo.json
+
