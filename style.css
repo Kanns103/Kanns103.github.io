@@ -11,3 +11,16 @@
 	width: 1200px;
 	margin: auto;
 }
+
+li{
+  list-style-type: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+nav{
+  width: 100vw;
+  background-color: #D6EFFF;
+}
