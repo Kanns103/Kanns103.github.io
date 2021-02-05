@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+<packageInfo>
+    <bundleId>com.kanns.fastsiri</bundleId>
+    <name>FastSiri</name>
+    <version>1.0.0</version>
+    <descriptions>
+        <description>
+            Remove siri dismiss delay
+        </description>
+        <description>
+            This tweak removes siri dismiss delay
+        </description>
+        <description>
+            No options to configure.
+        </description>
+    </descriptions>
+    <compatibility>
+        <miniOS>11.0</miniOS>
+        <maxiOS>14.3</maxiOS>
+    </compatibility>
+    <dependencies>
+        <dependency>mobilesubstrate or com.ex.substitute</dependency>
+    </dependencies>
+    <changelog>
+        <change>
+            <changeVersion>v1.0.0</changeVersion>
+            <changeDescription>Initial Release</changeDescription>
+        </change>
+    </changelog>
+    <informations>
+        <developer>Kanns</developer>
+        <price>Free</price>
+        <category>Tweaks</category>
+    </informations>
+    <links>
+        <github>https://Kanns103.github.io</github>
+        <twitter>https://twitter.com/Kanns103</twitter>
+        <reddit>https://www.reddit.com/user/be-10</reddit>
+        <mail>mailto:kannsbusiness@yahoo.com</mail>
+    </links>
+</packageInfo>
