@@ -1,34 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE xml>
 <packageInfo>
-    <bundleId>com.kanns.widgetcustoms</bundleId>
-    <name>WidgetCustoms</name>
-    <version>1.0.0</version>
+    <bundleId>com.kanns.carplaypasscode</bundleId>
+    <name>CarPlayPasscode</name>
+    <version>0.0.1</version>
     <descriptions>
         <description>
-            Fully customise your ios 14 homescreen widgets
+            Enable carplay passcode view
         </description>
         <description>
-            This tweak allows you to fully customise your ios 14 homescreen widgets. From animations, colour, spoofs to much more.
+            This tweak enabled the carplay passcode view
         </description>
         <description>
-            Options to configure in settings.
+            No options to configure.
         </description>
     </descriptions>
     <compatibility>
-        <miniOS>14.0</miniOS>
+        <miniOS>11.0</miniOS>
         <maxiOS>14.3</maxiOS>
     </compatibility>
     <dependencies>
         <dependency>mobilesubstrate or com.ex.substitute</dependency>
-        <dependency>ws.hbang.common</dependency>
-        <dependency>preferenceloader</dependency>
-        <dependency>com.rpetrich.rocketbootstrap</dependency>
-        <dependency>org.thebigboss.libcolorpicker</dependency>
     </dependencies>
     <changelog>
         <change>
-            <changeVersion>v1.0.0</changeVersion>
+            <changeVersion>v0.0.1</changeVersion>
             <changeDescription>Initial Release</changeDescription>
         </change>
     </changelog>

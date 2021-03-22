@@ -1,3 +1,22 @@
+Package: com.kanns.carplaypasscode
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: Kanns
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.kanns.carplaypasscode_0.0.1_iphoneos-arm.deb
+Size: 3068
+MD5sum: 0fcc75cf74091c38e13cbaa6f9568ea5
+SHA1: 23c09cfe92284bcb42cd904add37c0a9cf0c5afb
+SHA256: 229e5a101199cddaf07fd952862aeb4d56b50e99dc63b711e2a9138bb3725370
+Section: Tweaks
+Description: Enable carplay passcode buttons
+Author: Kanns
+Depiction: https://Kanns103.github.io/depictions/?p=com.kanns.carplaypasscode
+Icon: https://Kanns103.github.io/depictions/com.kanns.carplaypasscode/icon.png
+Name: CarPlayPasscode
+Sileodepiction: https://Kanns103.github.io/depictions/com.kanns.carplaypasscode/sileo.json
+
 Package: com.kanns.fastcc
 Version: 1.0.0
 Architecture: iphoneos-arm
