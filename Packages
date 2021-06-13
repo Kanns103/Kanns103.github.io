@@ -1,3 +1,18 @@
+Package: com.kanns.canyouseeme
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: Kanns
+Depends: com.spark.snowboard.masks
+Filename: ./debs/Canyouseeme.deb
+Size: 8376
+MD5sum: d5ce91314deaf5823de20d1ff40a37fa
+SHA1: 924637b7d1ef1903461d43855fc556ba07f71aea
+SHA256: 13dc553e3a43b282746999fb4b9e6dba1277f8c201844e2d26d805317e9328c2
+Section: Themes
+Description: A theme to make icons half transparent
+Author: Kanns
+Name: Canyouseeme
+
 Package: com.kanns.carplaypasscode
 Version: 0.0.1
 Architecture: iphoneos-arm

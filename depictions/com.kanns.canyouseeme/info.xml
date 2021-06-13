@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+<packageInfo>
+    <bundleId>com.kanns.canyouseeme</bundleId>
+    <name>Canyouseeme</name>
+    <version>0.0.1</version>
+    <descriptions>
+        <description>
+            Icon mask to make your icons 50% transparent
+        </description>
+        <description>
+            No options to configure.
+        </description>
+    </descriptions>
+    <compatibility>
+        <miniOS>11.0</miniOS>
+        <maxiOS>14.3</maxiOS>
+    </compatibility>
+    <dependencies>
+        <dependency>com.spark.snowboard.masks</dependency>
+    </dependencies>
+    <changelog>
+        <change>
+            <changeVersion>v0.0.1</changeVersion>
+            <changeDescription>Initial Release</changeDescription>
+        </change>
+    </changelog>
+    <informations>
+        <developer>Kanns</developer>
+        <price>Free</price>
+        <category>Themes</category>
+    </informations>
+    <links>
+        <github>https://Kanns103.github.io</github>
+        <twitter>https://twitter.com/Kanns103</twitter>
+        <reddit>https://www.reddit.com/user/be-10</reddit>
+        <mail>mailto:kannsbusiness@yahoo.com</mail>
+    </links>
+</packageInfo>
