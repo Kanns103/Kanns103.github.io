@@ -89,6 +89,22 @@ Icon: https://Kanns103.github.io/depictions/com.kanns.goawaysep/icon.png
 Name: GoAwaySep
 Sileodepiction: https://Kanns103.github.io/depictions/com.kanns.goawaysep/sileo/json
 
+Package: com.kanns.tappykeyboard
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: kanns
+Installed-Size: 352
+Depends: preferenceloader, com.rpetrich.rocketbootstrap
+Filename: ./debs/com.kanns.tappykeyboard_1.0.0_iphoneos-arm.deb
+Size: 13362
+MD5sum: 711d9e471a3f87832f5faeb92209cc8f
+SHA1: d16e96404248da1a808de7cc9143e3dab7366539
+SHA256: 5cc9d7e980dc20b6b0d7937122454535edc20b2368730a79f96eb7387eaa8650
+Section: Tweaks
+Description: Take advantage of your haptic/taptic engine on your keyboard
+Author: kanns
+Name: TappyKeyboard
+
 Package: com.kanns.widgetcustoms
 Version: 1.0.0
 Architecture: iphoneos-arm
