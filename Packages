@@ -105,6 +105,22 @@ Description: Take advantage of your haptic/taptic engine on your keyboard
 Author: kanns
 Name: TappyKeyboard
 
+Package: com.kanns.tappykeyboard
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: kanns
+Installed-Size: 352
+Depends: preferenceloader, com.rpetrich.rocketbootstrap
+Filename: ./debs/com.kanns.tappykeyboard_1.0.1_iphoneos-arm.deb
+Size: 13538
+MD5sum: 205e9ec27168a8d9a5f2a979fc1ac553
+SHA1: ed0a1ae7208b015e56addc9256ba712f241ece08
+SHA256: 8c7dcd551ab86da432078eaa2fa19817da780f52463a5273b4c60a21d99ea20a
+Section: Tweaks
+Description: Take advantage of your haptic/taptic engine on your keyboard
+Author: kanns
+Name: TappyKeyboard
+
 Package: com.kanns.widgetcustoms
 Version: 1.0.0
 Architecture: iphoneos-arm
