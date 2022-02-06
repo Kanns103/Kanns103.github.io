@@ -28,7 +28,7 @@ a {
 	color: black;
 }
 
-.dropdown {
+.infobox {
 	background-color: black;
 	color: white;
 	display: block;
@@ -36,8 +36,4 @@ a {
 	margin-right: auto;
 	width: 90%;
 	text-align: left;
-}
-
-.tweak {
-	
 }
