@@ -1,5 +1,5 @@
 body {
-	font-family: sans-serif;
+	font-family: system-ui;
 	background-color:slategray;
 	font-size: 15px;
 }
@@ -10,8 +10,7 @@ img {
 }
 
 div {
-	border: 15px solid black;
-	border-width: 3px;
+	border: 3px solid black;
 	padding: 25px;
 	margin: 10px;
 	border-radius: 20px;
@@ -22,10 +21,64 @@ div {
 	width: 90%;
 	text-align: left;
 	height: 50%;
+	transition: 200ms;
+}
+
+a:link {
+	text-decoration: none;
 }
 
 a {
 	color: black;
+}
+
+a:hover {
+	font-size: 20px;
+	text-decoration: underline;
+}
+
+.m:hover {
+	color: purple;
+	box-shadow: 10px 10px 80px black;
+}
+
+.c:hover {
+	color: white;
+	box-shadow: 10px 10px 80px black;
+}
+
+.a:hover {
+	color: turquoise;
+	box-shadow: 10px 10px 80px black;
+}
+
+.w:hover {
+	color: white;
+	box-shadow: 10px 10px 80px black;
+}
+
+.cp:hover {
+	color: limegreen;
+	box-shadow: 10px 10px 80px black;
+}
+
+.f:hover {
+	color: cyan;
+	box-shadow: 10px 10px 80px black;
+}
+
+.g:hover {
+	color: peachpuff;
+	box-shadow: 10px 10px 80px black;
+}
+
+.t:hover {
+	color: purple;
+	box-shadow: 10px 10px 80px black;
+}
+
+.imgsingle:hover {
+	box-shadow: 0px 0px 10px black;
 }
 
 .infobox {
@@ -36,4 +89,10 @@ a {
 	margin-right: auto;
 	width: 90%;
 	text-align: left;
+}
+
+.imgsingle {
+	width: 57.75px;
+	height: 54.75px;
+	transition: 200ms;
 }
