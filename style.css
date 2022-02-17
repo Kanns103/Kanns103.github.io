@@ -37,47 +37,55 @@ a:hover {
 	text-decoration: underline;
 }
 
-.m:hover {
+ul {
+	text-align: center;
+}
+
+hr {
+	width: 40%;
+}
+
+.m:hover, .m:active {
 	color: purple;
 	box-shadow: 10px 10px 80px black;
 }
 
-.c:hover {
+.c:hover, .c:active {
 	color: white;
 	box-shadow: 10px 10px 80px black;
 }
 
-.a:hover {
+.a:hover, .a:active {
 	color: turquoise;
 	box-shadow: 10px 10px 80px black;
 }
 
-.w:hover {
+.w:hover, .w:active {
 	color: white;
 	box-shadow: 10px 10px 80px black;
 }
 
-.cp:hover {
+.cp:hover, .cp:active {
 	color: limegreen;
 	box-shadow: 10px 10px 80px black;
 }
 
-.f:hover {
+.f:hover, .f:active {
 	color: cyan;
 	box-shadow: 10px 10px 80px black;
 }
 
-.g:hover {
+.g:hover, .g:active {
 	color: peachpuff;
 	box-shadow: 10px 10px 80px black;
 }
 
-.t:hover {
+.t:hover, .t:active {
 	color: purple;
 	box-shadow: 10px 10px 80px black;
 }
 
-.imgsingle:hover {
+.imgsingle:hover, .imgsingle:active {
 	box-shadow: 0px 0px 10px black;
 }
 
