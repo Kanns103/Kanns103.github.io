@@ -1,0 +1,137 @@
+body {
+	font-family: system-ui;
+	background-color:slategray;
+	font-size: 15px;
+}
+
+img {
+	border-radius: 20%;
+	padding: 2px;
+}
+
+h1 {
+	text-align: center;
+	padding-top: 120px;
+}
+
+div {
+	border: 3px solid black;
+	padding: 25px;
+	margin: 10px;
+	border-radius: 20px;
+	height: 250px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+	text-align: left;
+	height: 50%;
+	transition: 200ms;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+a {
+	transition: 200ms;
+	color: black;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+ul {
+	text-align: center;
+}
+
+hr {
+	width: 40%;
+}
+
+.m:hover, .m:active {
+	color: purple;
+	box-shadow: 10px 10px 80px black;
+}
+
+.c:hover, .c:active {
+	color: white;
+	box-shadow: 10px 10px 80px black;
+}
+
+.a:hover, .a:active {
+	color: turquoise;
+	box-shadow: 10px 10px 80px black;
+}
+
+.w:hover, .w:active {
+	color: white;
+	box-shadow: 10px 10px 80px black;
+}
+
+.cp:hover, .cp:active {
+	color: limegreen;
+	box-shadow: 10px 10px 80px black;
+}
+
+.f:hover, .f:active {
+	color: cyan;
+	box-shadow: 10px 10px 80px black;
+}
+
+.g:hover, .g:active {
+	color: peachpuff;
+	box-shadow: 10px 10px 80px black;
+}
+
+.t:hover, .t:active {
+	color: purple;
+	box-shadow: 10px 10px 80px black;
+}
+
+.imgsingle:hover, .imgsingle:active {
+	box-shadow: 0px 0px 10px black;
+}
+
+.infobox {
+	background-color: black;
+	color: white;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+	text-align: left;
+}
+
+.imgsingle {
+	width: 57.75px;
+	height: 54.75px;
+	transition: 200ms;
+}
+
+.backgroundnav {
+	box-shadow: 10px 0px 30px black;
+	background-color: black;
+	width: 100%;
+	left: 0;
+	right: 0;
+	position: fixed;
+	display: block;
+	text-align: center;
+	padding: 25px;
+	top: 0;
+}
+
+#textnav {
+	color: black;
+	padding: 10px 10px;
+	border-radius: 10px;
+	background-color: white;
+	transition: 200ms;
+}
+
+#textnav:hover {
+	text-decoration: none;
+	background-color: lightblue;
+}
