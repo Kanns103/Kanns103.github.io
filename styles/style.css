@@ -1,7 +1,8 @@
 body {
-	font-family: system-ui;
+	font-family: monospace;
 	background-color:slategray;
-	font-size: 15px;
+	font-size: 12px;
+	text-align: center;
 }
 
 img {
@@ -12,21 +13,6 @@ img {
 h1 {
 	text-align: center;
 	padding-top: 120px;
-}
-
-div {
-	border: 3px solid black;
-	padding: 25px;
-	margin: 10px;
-	border-radius: 20px;
-	height: 250px;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 90%;
-	text-align: left;
-	height: 50%;
-	transition: 200ms;
 }
 
 a:link {
@@ -42,54 +28,6 @@ a:hover {
 	text-decoration: underline;
 }
 
-ul {
-	text-align: center;
-}
-
-hr {
-	width: 40%;
-}
-
-.m:hover, .m:active {
-	color: purple;
-	box-shadow: 10px 10px 80px black;
-}
-
-.c:hover, .c:active {
-	color: white;
-	box-shadow: 10px 10px 80px black;
-}
-
-.a:hover, .a:active {
-	color: turquoise;
-	box-shadow: 10px 10px 80px black;
-}
-
-.w:hover, .w:active {
-	color: white;
-	box-shadow: 10px 10px 80px black;
-}
-
-.cp:hover, .cp:active {
-	color: limegreen;
-	box-shadow: 10px 10px 80px black;
-}
-
-.f:hover, .f:active {
-	color: cyan;
-	box-shadow: 10px 10px 80px black;
-}
-
-.g:hover, .g:active {
-	color: peachpuff;
-	box-shadow: 10px 10px 80px black;
-}
-
-.t:hover, .t:active {
-	color: purple;
-	box-shadow: 10px 10px 80px black;
-}
-
 .imgsingle:hover, .imgsingle:active {
 	box-shadow: 0px 0px 10px black;
 }
@@ -97,11 +35,13 @@ hr {
 .infobox {
 	background-color: black;
 	color: white;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 90%;
+	width: 800px;
+	padding: 25px;
+	margin: 10px;
+	border-radius: 20px;
+	height: 250px;
 	text-align: left;
+	transition: 200ms;
 }
 
 .imgsingle {
@@ -111,7 +51,6 @@ hr {
 }
 
 .backgroundnav {
-	box-shadow: 10px 0px 30px black;
 	background-color: black;
 	width: 100%;
 	left: 0;
@@ -123,7 +62,20 @@ hr {
 	top: 0;
 }
 
-#textnav {
+.divoutline {
+	border: 3px solid black;
+	padding: 25px;
+	border-radius: 20px;
+	text-align: left;
+	transition: 200ms;
+	display: inline-block;
+	width: 160px;
+	height: 350px;
+	min-height: 100px;
+	overflow: hidden;
+}
+
+.textnav {
 	color: black;
 	padding: 10px 10px;
 	border-radius: 10px;
@@ -134,4 +86,37 @@ hr {
 #textnav:hover {
 	text-decoration: none;
 	background-color: lightblue;
+}
+
+#copyright {
+	text-align: center;
+	font-size: 12px;
+	padding-top: 10px;
+}
+
+#tweaks {
+	padding-top: 40px;
+	text-align: left;
+	padding-left: 30px;
+	padding-bottom: 10px;
+}
+
+#subhead {
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+#outlinedevices {
+	border: 3px solid black;
+	padding: 25px;
+	margin: 10px;
+	border-radius: 20px;
+	height: 250px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+	text-align: left;
+	height: 50%;
+	transition: 200ms;
 }

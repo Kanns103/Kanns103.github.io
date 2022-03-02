@@ -1,0 +1,121 @@
+Package: com.kanns.canyouseeme
+Version: 1.0.0
+Section: Themes
+Maintainer: Kanns
+Depends: com.spark.snowboard.masks
+Architecture: iphoneos-arm
+Filename: .//debs/Canyouseeme.deb
+Size: 8376
+MD5sum: d5ce91314deaf5823de20d1ff40a37fa
+Description: A theme to make icons half transparent
+Name: Canyouseeme
+Author: Kanns
+
+Package: com.kanns.carplaypasscode
+Version: 0.0.1
+Section: Tweaks
+Maintainer: Kanns
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm
+Filename: .//debs/com.kanns.carplaypasscode_0.0.1_iphoneos-arm.deb
+Size: 3068
+Installed-Size: 168
+MD5sum: 0fcc75cf74091c38e13cbaa6f9568ea5
+Description: Enable carplay passcode buttons
+Name: CarPlayPasscode
+Author: Kanns
+Depiction: https://Kanns103.github.io/depictions/?p=com.kanns.carplaypasscode
+Icon: https://Kanns103.github.io/depictions/com.kanns.carplaypasscode/icon.png
+
+Package: com.kanns.fastcc
+Version: 1.0.0
+Section: Tweaks
+Maintainer: kanns
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm
+Filename: .//debs/com.kanns.fastcc_1.0.0_iphoneos-arm.deb
+Size: 2956
+Installed-Size: 168
+MD5sum: ee6c482d43a1c12f07f4b59f8110655c
+Description: Speed up your control center
+Name: FastCC
+Author: kanns
+Depiction: https://Kanns103.github.io/depictions/?p=com.kanns.fastcc
+Icon: https://Kanns103.github.io/depictions/com.kanns.fastcc/icon.png
+
+Package: com.kanns.fastsiri
+Version: 1.0.0
+Section: Tweaks
+Maintainer: Kanns
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm
+Filename: .//debs/com.kanns.fastsiri_1.0.0_iphoneos-arm.deb
+Size: 3114
+Installed-Size: 168
+MD5sum: e3641b4d956cc9e6f41bb34894ac4fed
+Description: Tweak to speed up dismissing siri
+Name: FastSiri
+Author: Kanns
+Depiction: https://Kanns103.github.io/depictions/?p=com.kanns.fastsiri
+Icon: https://Kanns103.github.io/depictions/com.kanns.fastsiri/icon.png
+
+Package: com.kanns.goawaysep
+Version: 1.2
+Section: Tweaks
+Maintainer: kanns
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm
+Filename: .//debs/com.kanns.goawaysep_1.2_iphoneos-arm.deb
+Size: 13458
+Installed-Size: 320
+MD5sum: 000163c12bc8b401701b47d684dfaa2e
+Description: A tweak to remove seperator lines system wide.
+Name: GoAwaySep
+Author: kanns
+Depiction: https://Kanns103.github.io/depictions/?p=com.kanns.goawaysep
+Icon: https://Kanns103.github.io/depictions/com.kanns.goawaysep/icon.png
+
+Package: com.kanns.tappykeyboard
+Version: 1.0.0
+Section: Tweaks
+Maintainer: kanns
+Depends: preferenceloader, com.rpetrich.rocketbootstrap
+Architecture: iphoneos-arm
+Filename: .//debs/com.kanns.tappykeyboard_1.0.0_iphoneos-arm.deb
+Size: 13362
+Installed-Size: 352
+MD5sum: 711d9e471a3f87832f5faeb92209cc8f
+Description: Take advantage of your haptic/taptic engine on your keyboard
+Name: TappyKeyboard
+Author: kanns
+
+Package: com.kanns.tappykeyboard
+Version: 1.0.1
+Section: Tweaks
+Maintainer: kanns
+Depends: preferenceloader, com.rpetrich.rocketbootstrap
+Architecture: iphoneos-arm
+Filename: .//debs/com.kanns.tappykeyboard_1.0.1_iphoneos-arm.deb
+Size: 13538
+Installed-Size: 352
+MD5sum: 205e9ec27168a8d9a5f2a979fc1ac553
+Description: Take advantage of your haptic/taptic engine on your keyboard
+Name: TappyKeyboard
+Author: kanns
+
+Package: com.kanns.widgetcustoms
+Version: 1.0.0
+Section: Tweaks
+Maintainer: kanns
+Depends: ws.hbang.common, preferenceloader, com.rpetrich.rocketbootstrap, org.thebigboss.libcolorpicker, firmware (>=14)
+Architecture: iphoneos-arm
+Filename: .//debs/com.kanns.widgetcustoms_1.0.0_iphoneos-arm.deb
+Size: 293970
+Installed-Size: 740
+MD5sum: 4446f53fa459db25bbb8f6b54ee41962
+Description: Customise your ios 14 widgets
+Name: WidgetCustoms
+Author: kanns
+Depiction: https://Kanns103.github.io/depictions/?p=com.kanns.widgetcustoms
+Icon: https://Kanns103.github.io/depictions/com.kanns.widgetcustoms/icon.png
+
