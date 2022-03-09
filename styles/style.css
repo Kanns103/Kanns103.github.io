@@ -1,122 +1,105 @@
 body {
 	font-family: monospace;
-	background-color:slategray;
-	font-size: 12px;
-	
-}
-
-img {
-	border-radius: 20%;
-	padding: 2px;
+	background-color: lightgray;
 }
 
 h1 {
+	background-color: rgb(45, 50, 55);
+	border-radius: 10px;
+	height: 100%;
+	line-height: 325%;
+	margin-left: auto;
+	margin-right: auto;
+	color: white;
+	width: 350px;
+	font-size: 30px;	
 	text-align: center;
-	padding-top: 120px;
+	margin-top: 70px;
+	margin-bottom: 60px;
 }
 
-a:link {
+.mainbutton {
+	font-weight: bold;
+	font-size: 15px;
+	border: solid 1px white;
+	background-color: transparent;
+	padding: 15px;
+	border-radius: 10px;
 	text-decoration: none;
+	color: white;
+	display: block;
+	width: 140px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	transition: 250ms;
 }
 
-a {
-	transition: 200ms;
-	color: black;
+.mainbutton:hover {
+	background-color: black;
 }
 
-a:hover {
+.mainbuttonrepo {
+	font-size: 15px;
+	border: solid 1px white;
+	background-color: gray;
+	padding: 10px;
+	border-radius: 5px;
+	text-decoration: none;
+	color: white;
+	display: block;
+	width: 90px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	transition: 250ms;
+}
+
+.mainbuttonrepo:hover {
+	background-color: black;
+}
+
+#startbuttons {
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	border-radius: 10px;
+	width: 180px;
+	background-color: rgb(45, 50, 55);
+	padding: 25px;
+}
+
+#addcontact {
+	padding-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	display: none;
+	border-radius: 10px;
+	width: 150px;
+	padding: 15px;
+}
+
+#addrepo {
+	padding-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	display: none;
+	border-radius: 10px;
+	width: 150px;
+	padding: 15px;
+}
+
+.addrepobuttons:hover {
 	text-decoration: underline;
 }
 
-.imgsingle:hover, .imgsingle:active {
-	box-shadow: 0px 0px 10px black;
+a:hover {
+	cursor: pointer;
 }
 
-.infobox {
-	background-color: black;
-	color: white;
-	width: 800px;
-	padding: 25px;
-	margin: 10px;
-	border-radius: 20px;
-	height: 250px;
-	text-align: left;
-	transition: 200ms;
-}
-
-.imgsingle {
-	width: 57.75px;
-	height: 54.75px;
-	transition: 200ms;
-}
-
-.backgroundnav {
-	background-color: black;
-	width: 100%;
-	left: 0;
-	right: 0;
-	position: fixed;
-	display: block;
-	text-align: center;
-	padding: 25px;
-	top: 0;
-}
-
-.divoutline {
-	border: 3px solid black;
-	padding: 25px;
-	border-radius: 20px;
-	text-align: left;
-	transition: 200ms;
-	display: inline-block;
-	width: 160px;
-	height: 350px;
-	min-height: 100px;
-	overflow: hidden;
-}
-
-.textnav {
-	color: black;
-	padding: 10px 10px;
-	border-radius: 10px;
-	background-color: white;
-	transition: 200ms;
-}
-
-#textnav:hover {
-	text-decoration: none;
-	background-color: lightblue;
-}
-
-#copyright {
-	text-align: center;
-	font-size: 12px;
-	padding-top: 10px;
-}
-
-#tweaks {
-	padding-top: 40px;
-	text-align: left;
-	padding-left: 30px;
-	padding-bottom: 10px;
-}
-
-#subhead {
-	text-align: center;
-	padding-bottom: 50px;
-}
-
-#outlinedevices {
-	border: 3px solid black;
-	padding: 25px;
-	margin: 10px;
-	border-radius: 20px;
-	height: 250px;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 90%;
-	text-align: left;
-	height: 50%;
-	transition: 200ms;
+button:hover {
+	cursor: pointer;
 }
