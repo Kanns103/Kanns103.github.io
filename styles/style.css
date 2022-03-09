@@ -1,9 +1,10 @@
 body {
 	font-family: monospace;
-	background-color: lightgray;
+	background-color: rgb(70, 75, 80);
 }
 
 h1 {
+	box-shadow: 0 0 10px black;
 	background-color: rgb(45, 50, 55);
 	border-radius: 10px;
 	height: 100%;
@@ -18,10 +19,35 @@ h1 {
 	margin-bottom: 60px;
 }
 
+h2 {
+	padding-left: 10px;
+}
+
+p {
+	padding-left: 25px;
+}
+
+ul {
+	padding-bottom: 40px;
+}
+
+.tweaklink {
+	color: cadetblue;
+}
+
+.tweaklink:visited {
+	color: cadetblue;
+}
+
+.tweaklink:hover {
+	cursor: pointer;
+}
+
 .mainbutton {
 	font-weight: bold;
 	font-size: 15px;
-	border: solid 1px white;
+	box-shadow: 0 0 10px black;
+	border: none;
 	background-color: transparent;
 	padding: 15px;
 	border-radius: 10px;
@@ -37,15 +63,14 @@ h1 {
 }
 
 .mainbutton:hover {
-	background-color: black;
+	background-color: rgb(71, 76, 81);
 }
 
 .mainbuttonrepo {
-	font-size: 15px;
-	border: solid 1px white;
-	background-color: gray;
+	font-size: 15px;;
+	background-color: rgb(10, 15, 20);
 	padding: 10px;
-	border-radius: 5px;
+	border-radius: 7px;
 	text-decoration: none;
 	color: white;
 	display: block;
@@ -54,14 +79,16 @@ h1 {
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 10px;
-	transition: 250ms;
+	transition: 400ms;
 }
 
 .mainbuttonrepo:hover {
-	background-color: black;
+	background-color: cadetblue;
+	color: black;
 }
 
 #startbuttons {
+	box-shadow: 0 0 10px black;
 	height: 100%;
 	margin-left: auto;
 	margin-right: auto;
@@ -80,6 +107,34 @@ h1 {
 	border-radius: 10px;
 	width: 150px;
 	padding: 15px;
+}
+
+#aboutme {
+	margin-top: 30px;
+	color: white;
+	display: none;
+	border-radius: 10px;
+	width: 300px;
+	padding: 15px;
+	box-shadow: 0 0 10px black;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: rgb(45, 50, 55);
+}
+
+#mytweaks {
+	margin-top: 30px;
+	color: white;
+	display: none;
+	border-radius: 10px;
+	width: 300px;
+	padding: 15px;
+	box-shadow: 0 0 10px black;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: rgb(45, 50, 55);
 }
 
 #addrepo {
@@ -102,4 +157,31 @@ a:hover {
 
 button:hover {
 	cursor: pointer;
+}
+
+.arrow {
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+
+.up {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
 }
