@@ -1,102 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Kanns repo</title>
-	<link rel="stylesheet" type="text/css" href="styles/style.css">
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<link rel="stylesheet" type="text/css" href="styles/style.css">
+	<title>Kanns website</title>
 </head>
-<body>
-	<h1>Kanns repo</h1>
+<body ondragstart="return false;" ondrop="return false;">
 
-	<div id="startbuttons">
-		<button id="addrepobutton" class="mainbutton" onclick="showrepo()">Add repo <i class="arrow right"></i></button>
-		<div id="addrepo">
-			<a class="mainbuttonrepo" href="zbra://sources/add/https://kanns103.github.io">Zebra</a>
-			<a class="mainbuttonrepo" href="sileo://source/https://kanns103.github.io">Sileo</a>
-			<a class="mainbuttonrepo" href="installer://add/https://kanns103.github.io">Installer</a>
-			<a class="mainbuttonrepo" href="cydia://url/https://cydia.saurik.com/api/share#?source=https://kanns103.github.io">Cydia</a>
+	<nav>
+		<h1>Kanns<br>Developer</h1>
+		<img src="images/twitternoneback.png" id="pp">
+	</nav>
+
+<div id="mytweaks">
+	<h2 class="movingtitles" id="title1">My tweaks</h2>
+	<div id="movinganim3">
+		<div id="mytweaks1" class="mytweaksclass">
+			<img class="mytweaksicon" src="images/merriamnew.png">
+			<p class="mytweakstext">Merriam</p>
 		</div>
-
-		<button id="contactbutton" class="mainbutton"  onclick="showcontact()">Contact <i class="arrow right"></i></button>
-		<div id="addcontact">
-			<a class="mainbuttonrepo" href="https://twitter.com/kanns103?lang=en" target="_blank">Twitter</a>
-			<a class="mainbuttonrepo" href="mailto:kannsbusiness@yahoo.com" target="_blank">Email</a>
-			<a class="mainbuttonrepo" href="https://github.com/Kanns103" target="_blank">Github</a>
-			<a class="mainbuttonrepo" href="https://www.reddit.com/user/be-10/" target="_blank">Reddit</a>
+		<div id="mytweaks2" class="mytweaksclass">
+			<img class="mytweaksicon" src="images/colouration.png">
+			<p class="mytweakstext">Colouration</p>
 		</div>
-
-		<button id="aboutmebutton" class="mainbutton" onclick="showaboutme()">About me <i class="arrow right"></i></button>
-
-		<button id="tweaks" class="mainbutton" onclick="showtweaks()">Tweaks <i class="arrow right"></i></button>
-	</div>
-	<div id="aboutme">
-		<ul>
-			<li><b>Age: </b>19</li><br>
-			<li><b>Location: </b>United Kingdom</li><br>
-			<li><b>Studying: </b>BSc in Cyber Secuity</li><br>
-			<li><b>Languages: </b>C++, Obj-C, Bash (Shell), HTML/5, CSS, Python, JavaScript</li>
-		</ul>
-	</div>
-
-	<div id="mytweaks">
-		<div class="bordertweak">
-			<h2><img src="https://repo.packix.com/api/Packages/5f395fede1fd55001adc2f81/icon/download?size=medium" alt="merriam photo"> Merriam</h2>
-			<p>Merriam is the best all round customisation tweak for your iPhone.</p>
-			<ul>
-				<li><b>Price: </b>£0.99</li>
-				<li><b>Versions: </b>IOS 11,12,13,14</li>
-				<li><b>Features: </b>Nearly 200</li>
-				<li><b>Link: </b><a class="tweaklink" target="_blank" href="https://repo.packix.com/package/com.kanns.Merriam/">Merriam</a></li>
-			</ul><br><br>
+		<div id="mytweaks3" class="mytweaksclass">
+			<img class="mytweaksicon" src="images/tappykeyboard.png">
+			<p class="mytweakstext">TappyK</p>
 		</div>
-
-		<div class="bordertweak">
-			<h2><img src="https://repo.packix.com/api/Packages/5fdbafec086b6d001a090848/icon/download?size=medium" alt="colouration photo"> Colouration</h2>
-			<p>Colouration is the most advanced system colouring tweak for your iPhone.</p>
-			<ul>
-				<li><b>Price: </b>£0.99</li>
-				<li><b>Versions: </b>IOS 11,12,13,14</li>
-				<li><b>Features: </b>83</li>
-				<li><b>Link: </b><a class="tweaklink" target="_blank" href="https://repo.packix.com/package/com.kanns.Colouration/">Colouration</a></li>
-			</ul><br><br>
+		<div id="mytweaks4" class="mytweaksclass">
+			<img class="mytweaksicon" src="images/fastcc.png">
+			<p class="mytweakstext">FastCC</p>
 		</div>
-
-		<div class="bordertweak">
-			<h2><img src="images/fastcc.png" alt="fastcc photo"> FastCC</h2>
-			<p>FastCC speeds up your control center opening speed.</p>
-			<ul>
-				<li><b>Price: </b>Free</li>
-				<li><b>Versions: </b>IOS 11,12,13,14</li>
-				<li><b>Link: </b><a class="tweaklink" target="_blank" href="https://kanns103.github.io">My repo</a></li>
-			</ul><br><br>
+		<div id="mytweaks5" class="mytweaksclass">
+			<img class="mytweaksicon" src="images/apollocolouring.png">
+			<p class="mytweakstext">ApolloC</p>
 		</div>
-
-		<div class="bordertweak">
-			<h2><img src="images/tappykeyboard.png" alt="TappyKeyboard photo"> TappyKeyboard</h2>
-			<p>TappyKeyboard gives you set options to add haptic/taptics to your keyboard clicks.</p>
-			<ul>
-				<li><b>Price: </b>Free</li>
-				<li><b>Versions: </b>IOS 11,12,13,14</li>
-				<li><b>Features: </b>8</li>
-				<li><b>Extra info: </b>Option top disable the haptics in low power mode</li>
-				<li><b>Link: </b><a class="tweaklink" target="_blank" href="https://kanns103.github.io">My repo</a></li>
-			</ul><br><br>
+		<div id="mytweaks6" class="mytweaksclass">
+			<img class="mytweaksicon" src="images/goawaysep.png">
+			<p class="mytweakstext">GoAwaySep</p>
 		</div>
-
-		<div class="bordertweak">
-			<h2><img src="images/widgetcustoms.png" alt="WidgetCustoms photo"> WidgetCustoms</h2>
-			<p>WidgetCustoms allows you to customise your ios 14 widgets.</p>
-			<ul>
-				<li><b>Price: </b>£0.99</li>
-				<li><b>Versions: </b>IOS 14.0-14.3</li>
-				<li><b>Features: </b>24</li>
-				<li><b>Link: </b><a class="tweaklink" target="_blank" href="https://kanns103.github.io">My repo</a></li>
-			</ul>
+		<div id="mytweaks7" class="mytweaksclass">
+			<img class="mytweaksicon" src="images/widgetcustoms.png">
+			<p class="mytweakstext">WidgetC</p>
+		</div>
+		<div id="mytweaks8" class="mytweaksclass">
+			<img class="mytweaksicon" src="images/carplay.png">
+			<p class="mytweakstext">CarplayP</p>
 		</div>
 	</div>
+</div>
 
-	<script src="scripts/main.js"></script>
+<div id="repos">
+	<h2 class="movingtitles" id="title2">Community repos</h2>
+	<div id="movinganim">
+		<div id="repo1" class="repoclass">
+			<img class="repoicon" src="images/twitter.jpeg">
+			<p class="repotext">Kanns</p>
+		</div>
+		<div id="repo2" class="repoclass">
+			<img class="repoicon" src="https://canister.me/chariz.jpg">
+			<p class="repotext">Chariz</p>
+		</div>
+		<div id="repo3" class="repoclass">
+			<img class="repoicon" src="https://api.ios-repo-updates.com/images/repositories/bigboss.png?timestamp=1661551741303">
+			<p class="repotext">BigBoss</p>
+		</div>
+		<div id="repo4" class="repoclass">
+			<img class="repoicon" src="https://api.ios-repo-updates.com/images/repositories/dynastic.png?timestamp=1661551791149">
+			<p class="repotext">Dynastic</p>
+		</div>
+		<div id="repo5" class="repoclass">
+			<img class="repoicon" src="https://api.ios-repo-updates.com/images/repositories/mtac-s-beta-repo.png?timestamp=1661550028084">
+			<p class="repotext">MTAC</p>
+		</div>
+		<div id="repo6" class="repoclass">
+			<img class="repoicon" src="https://api.ios-repo-updates.com/images/repositories/twickd.png?timestamp=1661549404078">
+			<p class="repotext">Twickd</p>
+		</div>
+		<div id="repo7" class="repoclass">
+			<img class="repoicon" src="https://api.ios-repo-updates.com/images/repositories/sparkdev.png?timestamp=1661551895038">
+			<p class="repotext">SparkDev</p>
+		</div>
+		<div id="repo8" class="repoclass">
+			<img class="repoicon" src="https://api.ios-repo-updates.com/images/repositories/poomsmart.png?timestamp=1661551822137">
+			<p class="repotext">PoomStart</p>
+		</div>
+	</div>
+</div>
+
+<div id="tweaks">
+	<h2 class="movingtitles" id="title3">Popular tweaks</h2>
+	<div id="movinganim2">
+		<div id="tweaks1" class="tweaksclass">
+			<img class="tweaksicon" src="https://api.ios-repo-updates.com/image.php?url=https://img.chariz.cloud/icon/sydney/icon@3x.png&size=120x120&timestamp=1661553183644">
+			<p class="tweakstext">Sydney</p>
+		</div>
+		<div id="tweaks2" class="tweaksclass">
+			<img class="tweaksicon" src="https://api.ios-repo-updates.com/image.php?url=https://sugiuta.github.io/descriptions/com.sugiuta.hivereborn/HiveReborn_icon.png&size=120x120&timestamp=1661555008220">
+			<p class="tweakstext">HiveReborn</p>
+		</div>
+		<div id="tweaks3" class="tweaksclass">
+			<img class="tweaksicon" src="images/merriamnew.png">
+			<p class="tweakstext">Merriam</p>
+		</div>
+		<div id="tweaks4" class="tweaksclass">
+			<img class="tweaksicon" src="https://api.ios-repo-updates.com/image.php?url=https://img.chariz.cloud/icon/cylinder-reborn/icon@3x.png&size=120x120&timestamp=1661555115983">
+			<p class="tweakstext">Cylinder</p>
+		</div>
+		<div id="tweaks5" class="tweaksclass">
+			<img class="tweaksicon" src="https://ib-soft.net/style/icons/iCleanerIcon.png">
+			<p class="tweakstext">iCleaner</p>
+		</div>
+		<div id="tweaks6" class="tweaksclass">
+			<img class="tweaksicon" src="https://api.ios-repo-updates.com/image.php?url=https://sparkdev.me/package-logo/com.spark.snowboard&size=120x120&timestamp=1661555264786">
+			<p class="tweakstext">SnowBoard</p>
+		</div>
+		<div id="tweaks7" class="tweaksclass">
+			<img class="tweaksicon" src="https://api.ios-repo-updates.com/images/repositories/fouad-s.png?timestamp=1661555291045">
+			<p class="tweakstext">AppData</p>
+		</div>
+		<div id="tweaks8" class="tweaksclass">
+			<img class="tweaksicon" src="https://api.ios-repo-updates.com/image.php?url=https://sparkdev.me/package-logo/com.spark.autounlockx&size=120x120&timestamp=1661555320109">
+			<p class="tweakstext">AutoUnlockX</p>
+		</div>
+	</div>
+</div>
+
+<div id="blockscenter">
+	<div id="block1">
+		<a href="zbra://sources/add/https://kanns103.github.io"><img src="images/zebralight.png" class="sourcesicons"></a>
+		<a href="sileo://source/https://kanns103.github.io"><img src="images/sileo.png" class="sourcesicons"></a>
+		<a href="installer://add/https://kanns103.github.io"><img src="images/installer.png" class="sourcesicons"></a>
+		<a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://kanns103.github.io"><img src="images/cydia.png" class="sourcesicons"></a>
+	</div>
+	<div id="block2">
+		<a href="https://twitter.com/kanns103?lang=en" target="_blank"><img src="images/twitter.png" class="sourcesicons"></a>
+		<a href="mailto:kannsbusiness@yahoo.com" target="_blank"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/c7/40/e5/c740e5f0-2a62-4fa7-dc1b-66ea3d519545/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-10.png/217x0w.png" class="sourcesicons"></a>
+		<a href="https://www.reddit.com/u/Be-10/" target="_blank"><img src="images/reddit.png" class="sourcesicons"></a>
+		<a href="https://github.com/Kanns103" target="_blank"><img src="images/githublight.png" class="sourcesicons"></a>
+	</div>
+</div>
+
+<script src="scripts/index.js"></script>
 </body>
 </html>

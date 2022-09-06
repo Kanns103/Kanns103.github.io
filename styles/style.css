@@ -1,203 +1,330 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
 body {
-	font-family: monospace;
-	background-color: rgb(70, 75, 80);
+  background-color: rgb(40, 45, 50);
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
+
+.sourcesicons {
+  width: 100px;
+  border-radius: 20px;
+  margin-top: 20px;
+  background-color: transparent;
+  transition: 1000ms;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.sourcesicons:hover {
+  cursor: pointer;
+}
+
+#zebra, #installer, #sileo, #cydia, #twitter, #reddit, #email {
+  display: none;
+  opacity: 0;
+}
+
+nav {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  height: 600px;
+  background: linear-gradient(to bottom, rgb(20, 25, 30) 60%, rgb(40, 45, 50) 100%);
+}
+
+#pp {
+  width: 50px;
+  /* margin-left: 5px; */
+  position: absolute;
 }
 
 h1 {
-	box-shadow: 0 0 10px black;
-	background-color: rgb(45, 50, 55);
-	border-radius: 10px;
-	height: 100%;
-	line-height: 325%;
-	margin-left: auto;
-	margin-right: auto;
-	color: white;
-	width: 350px;
-	font-size: 30px;	
-	text-align: center;
-	margin-top: 70px;
-	margin-bottom: 60px;
+  position: absolute;
+  top: 6px;
+  left: 45px;
+  opacity: 0.7;
+  font-size: 15px;
 }
 
-h2 {
-	padding-left: 10px;
+#description {
+  opacity: 0.2;
+  font-size: 12px;
+  position: absolute;
+  top: 35px;
+  left: 26px;
 }
 
-p {
-	padding-left: 25px;
+#repos {
+  background-color: rgba(255, 255, 255, 0.2);
+  height: 100px;
+  width: 80%;
+  max-width: 650px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  margin-top: 340px;
+  border-radius: 5px;
+  overflow: hidden;
+  transition: 200ms;
 }
 
-img {
-	position: relative;
-	top: 5px;
-	width: 30px;
-	height: 30px;
+#repos:hover {
+  background-color: rgba(255, 255, 255, 0.3);
 }
 
-.tweaklink {
-	color: cadetblue;
+#repostitle {
+  color: white;
+  margin-top: -40px;
+  background-color:  rgb(40, 45, 50);
+  width: 150px;
+  text-align: center;
+  padding: 5px;
+  border-radius: 5px;
+  font-weight: lighter;
+  font-size: 18px;
+  height: 20px;
+  position: absolute;
+  top: 340px;
+  height: 20px;
+  left: 50%;
+  transform: translate(-50%);
 }
 
-.tweaklink:visited {
-	color: cadetblue;
+.repoclass {
+  display: inline-block;
+  height: 80px;
+  width: 60px;
+  margin-left: 14px;
+  text-align: center;
+}
+.repoclass:hover {
+  cursor: pointer;
 }
 
-.tweaklink:hover {
-	cursor: pointer;
+.repoicon {
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  margin-top: 5px;
 }
 
-.mainbutton {
-	font-weight: bold;
-	font-size: 15px;
-	box-shadow: 0 0 10px black;
-	border: none;
-	background-color: transparent;
-	padding: 15px;
-	border-radius: 10px;
-	text-decoration: none;
-	color: white;
-	display: block;
-	width: 140px;
-	text-align: center;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 20px;
-	transition: 250ms;
+#movinganim {
+  margin-left: 9px;
+  margin-top: 10px;
+  animation: 30s infinite slidein linear;
+  animation-delay: -10s;
 }
 
-.mainbutton:hover {
-	background-color: rgb(71, 76, 81);
+.repotext {
+  font-size: 13px;
+  margin-top: 5px;
 }
 
-.mainbuttonrepo {
-	font-size: 15px;;
-	background-color: rgb(10, 15, 20);
-	padding: 10px;
-	border-radius: 7px;
-	text-decoration: none;
-	color: white;
-	display: block;
-	width: 90px;
-	text-align: center;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 10px;
-	transition: 400ms;
+#tweaks {
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 0.2);
+  height: 100px;
+  width: 80%;
+  max-width: 650px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  margin-top: 230px;
+  border-radius: 5px;
+  transition: 200ms;
 }
 
-.mainbuttonrepo:hover {
-	background-color: cadetblue;
-	color: black;
+#tweaks:hover {
+  background-color: rgba(255, 255, 255, 0.3);
 }
 
-#startbuttons {
-	box-shadow: 0 0 10px black;
-	height: 100%;
-	margin-left: auto;
-	margin-right: auto;
-	display: block;
-	border-radius: 10px;
-	width: 180px;
-	background-color: rgb(45, 50, 55);
-	padding: 25px;
+#tweakstitle {
+  color: white;
+  margin-top: -40px;
+  background-color:  rgb(40, 45, 50);
+  width: 150px;
+  text-align: center;
+  padding: 5px;
+  border-radius: 5px;
+  font-weight: lighter;
+  font-size: 18px;
+  position: absolute;
+  top: 505px;
+  height: 20px;
+  left: 50%;
+  transform: translate(-50%);
 }
 
-#addcontact {
-	padding-top: 30px;
-	margin-left: auto;
-	margin-right: auto;
-	display: none;
-	border-radius: 10px;
-	width: 150px;
-	padding: 15px;
+.tweaksclass {
+  display: inline-block;
+  height: 80px;
+  width: 60px;
+  margin-left: 14px;
+  text-align: center;
+}
+.tweaksclass:hover {
+  cursor: pointer;
 }
 
-#aboutme {
-	margin-top: 30px;
-	color: white;
-	display: none;
-	border-radius: 10px;
-	width: 300px;
-	padding: 15px;
-	box-shadow: 0 0 10px black;
-	height: 100%;
-	margin-left: auto;
-	margin-right: auto;
-	background-color: rgb(45, 50, 55);
+.tweaksicon {
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  margin-top: 5px;
+  margin-left: 0px;
+}
+
+#movinganim2 {
+  margin-left: 9px;
+  margin-top: 10px;
+  animation: 30s infinite slidein linear;
+  animation-delay: -10s;
+}
+
+#movinganim2:hover, #movinganim3:hover, #movinganim:hover {
+  animation-play-state: paused;
+}
+
+.tweakstext {
+  font-size: 13px;
+  margin-top: 5px;
 }
 
 #mytweaks {
-	margin-top: 30px;
-	color: white;
-	display: none;
-	border-radius: 10px;
-	width: 300px;
-	padding: 15px;
-	box-shadow: 0 0 10px black;
-	height: 100%;
-	margin-left: auto;
-	margin-right: auto;
-	background-color: rgb(45, 50, 55);
+  background-color: rgba(255, 255, 255, 0.2);
+  height: 100px;
+  max-width: 650px;
+  width: 80%;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  margin-top: 120px;
+  border-radius: 5px;
+  overflow: hidden;
+  transition: 200ms;
 }
 
-#addrepo {
-	padding-top: 30px;
-	margin-left: auto;
-	margin-right: auto;
-	display: none;
-	border-radius: 10px;
-	width: 150px;
-	padding: 15px;
+#mytweaks:hover {
+  background-color: rgba(255, 255, 255, 0.3);
 }
 
-.addrepobuttons:hover {
-	text-decoration: underline;
+#mytweaks:hover #title1 {
+  display: block;
+  opacity: 1;
+}
+#repos:hover #title2 {
+  display: block;
+  opacity: 1;
+}
+#tweaks:hover #title3 {
+  display: block;
+  opacity: 1;
 }
 
-a:hover {
-	cursor: pointer;
+#mytweakstitle {
+  color: white;
+  margin-top: -40px;
+  background-color:  rgb(40, 45, 50);
+  width: 150px;
+  text-align: center;
+  padding: 5px;
+  border-radius: 5px;
+  font-weight: lighter;
+  font-size: 18px;
+  position: absolute;
+  height: 20px;
+  top: 175px;
+  left: 50%;
+  transform: translate(-50%);
 }
 
-button:hover {
-	cursor: pointer;
-}
-
-.arrow {
-  border: solid white;
-  border-width: 0 3px 3px 0;
+.mytweaksclass {
   display: inline-block;
-  padding: 3px;
+  height: 80px;
+  width: 60px;
+  margin-left: 14px;
+  text-align: center;
+}
+.mytweaksclass:hover {
+  cursor: pointer;
 }
 
-.right {
-  transform: rotate(-45deg);
-  -webkit-transform: rotate(-45deg);
+.mytweaksicon {
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  margin-top: 5px;
+  margin-left: 0px;
 }
 
-.left {
-  transform: rotate(135deg);
-  -webkit-transform: rotate(135deg);
+#movinganim3 {
+  margin-left: 9px;
+  margin-top: 10px;
+  animation: 30s infinite slidein linear;
+  animation-delay: -10s;
 }
 
-.up {
-  transform: rotate(-135deg);
-  -webkit-transform: rotate(-135deg);
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: -100%;
+    width: 100%;
+  }
 }
 
-.down {
-  transform: rotate(45deg);
-  -webkit-transform: rotate(45deg);
+.mytweakstext {
+  font-size: 13px;
+  margin-top: 5px;
 }
 
-.bordertweak {
-	box-shadow: 0 0 20px black;
-	margin-top: 15px;
-	margin-bottom: 30px;
-	border: solid 1px white;
-	padding: 2px;
-	border-radius: 10px;
-	width: 90%;
-	position: relative;
-	margin-left: auto;
-	margin-right: auto;
+#block1 {
+  transition: 1000ms;
+  background-color: black;
+  width: 300px;
+  height: 300px;
+  margin-top: 525px;
+  margin-right: 370px;
+  border-radius: 20px;
+}
+#block2 {
+  transition: 1000ms;
+  background-color: black;
+  width: 300px;
+  height: 300px;
+  margin-top: -300px;
+  margin-left: 370px;
+  border-radius: 20px;
+}
+#blockscenter {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  margin-top: 70px;
+  height: 300px;
+  z-index: -999;
+}
+
+.movingtitles {
+  position: absolute;
+  padding: 5px;
+  background-color: white;
+  color: black;
+  width: 150px;
+  margin-left: 10px;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: lighter;
+  box-shadow: 0 0 10px black;
+}
+
+#title1, #title2, #title3 {
+  display: none;
+  opacity: 0;
 }
