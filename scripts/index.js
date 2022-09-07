@@ -18,17 +18,17 @@ window.addEventListener("resize", function() {
       sourcesicons[i].style.borderRadius = '20px';
     }
   } else {
-block1.style.width = '200px';
-block1.style.height = '200px';
-block2.style.height = '200px';
-block1.style.marginRight = '210px';
-block2.style.width = '200px';
-block2.style.marginTop = '-200px';
-block2.style.marginLeft = '210px';
-for(var i=0; i<sourcesicons.length; i++){
-  sourcesicons[i].style.width = '50px';
-  sourcesicons[i].style.borderRadius = '10px';
-}
+    block1.style.width = '200px';
+    block1.style.height = '200px';
+    block2.style.height = '200px';
+    block1.style.marginRight = '210px';
+    block2.style.width = '200px';
+    block2.style.marginTop = '-200px';
+    block2.style.marginLeft = '210px';
+    for(var i=0; i<sourcesicons.length; i++){
+      sourcesicons[i].style.width = '50px';
+      sourcesicons[i].style.borderRadius = '10px';
+    }
   }
 });
 
@@ -61,3 +61,32 @@ window.addEventListener('load', (event) => {
     }
   }
 });
+
+var movinganim = document.getElementById('movinganim');
+var movinganim2 = document.getElementById('movinganim2');
+var movinganim3 = document.getElementById('movinganim3');
+
+function stop1() {
+  if(movinganim3.style.animationPlayState == 'paused') {
+    movinganim3.style.animation = "30s infinite slidein linear";
+    movinganim3.style.animationDelay = "-10s";
+  } else {
+    movinganim3.style.animationPlayState = 'paused';
+  }
+}
+function stop3() {
+  if(movinganim2.style.animationPlayState == 'paused') {
+    movinganim2.style.animation = "30s infinite slidein linear";
+    movinganim2.style.animationDelay = "-10s";
+  } else {
+    movinganim2.style.animationPlayState = 'paused';
+  }
+}
+function stop2() {
+  if(movinganim.style.animationPlayState == 'paused') {
+    movinganim.style.animation = "30s infinite slidein linear";
+    movinganim.style.animationDelay = "-10s";
+  } else {
+    movinganim.style.animationPlayState = 'paused';
+  }
+}

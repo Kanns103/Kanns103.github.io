@@ -182,10 +182,10 @@ h1 {
   animation: 30s infinite slidein linear;
   animation-delay: -10s;
 }
-
+/* 
 #movinganim2:hover, #movinganim3:hover, #movinganim:hover {
   animation-play-state: paused;
-}
+} */
 
 .tweakstext {
   font-size: 13px;
