@@ -25,11 +25,7 @@ function systemwide() {
     button2.style.opacity = '0.3';
     button2.style.pointerEvents = 'none';
   }
-  // countdowntimer();
   tweakpic.src = '../images/merriam/systemwide1.png';
-  // setTimeout(function(){
-  //   tweakpic.src = '../images/merriam/merriamdarkmockup.png';
-  // }, 3000);
 }
 function homescreen() {
   countdowntimer();
