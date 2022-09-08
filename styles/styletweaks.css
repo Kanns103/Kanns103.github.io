@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+body {
+  background-color: black;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
+
+#tweakstitle {
+  font-weight: lighter;
+  position: absolute;
+}
+#tweaksdescription {
+  position: absolute;
+  margin-top: 58px;
+  opacity: 0.5;
+}
+#titletweaks {
+  width: 100px;
+  margin-top: -10px;
+  margin-left: 10px;
+  font-size: 15px;
+}
+
+#tweakpic {
+  width: 95vw;
+  max-width: 500px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+area {
+  cursor: pointer;
+}
+
+#timeout {
+  font-size: 50px;
+  position: absolute;
+  right: 20px;
+  top: -30px;
+}
+
+#button1 {
+  margin-top: 100px;
+}
+
+.buttonsarrows {
+  cursor: pointer;
+  font-size: 50px;
+  transform: rotate(180deg);
+  background-color: transparent;
+  border: none;
+  color: white;
+  position: absolute;
+  margin-left: 10px;
+  top: 50%;
+  transform: translate(-50%);
+  transition: 200ms;
+  pointer-events: none;
+  opacity: 0.4;
+}
+
+.buttonsarrows:hover {
+  font-size: 60px;
+}

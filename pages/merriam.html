@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<link rel="stylesheet" type="text/css" href="../styles/styletweaks.css">
+	<title>Kanns website - Merriam</title>
+</head>
+<body ondragstart="return false;" ondrop="return false;">
+
+	<div id="titletweaks">
+		<h1 id="tweakstitle">Merriam</h1>
+		<p id="tweaksdescription">All round customisation tweak</p>
+	</div>
+
+	<h2 id="timeout">3</h2>
+
+	<img usemap='#merriamdarkmap' alt="" id="tweakpic" src="../images/merriam/merriamdarkmockup.png">
+	<button onclick="downbuttonclick()" class="buttonsarrows" id="button1">⬇</button>
+	<button onclick="upbuttonclick()" class="buttonsarrows" id="button2">⬆</button>
+
+	<map name="merriamdarkmap">
+		<area onclick="controlcentre()" shape="rect" coords="256,1174,1314,1270" target="_blank" alt="merriam dark image" />
+		<area onclick="systemwide()" shape="rect" coords="252,1280,1316,1370" target="_blank" alt="merriam dark image" />
+		<area onclick="homescreen()" shape="rect" coords="254,1388,1322,1474" target="_blank" alt="merriam dark image" />
+		<area onclick="apps()" shape="rect" coords="252,1478,1324,1578" target="_blank" alt="merriam dark image" />
+		<area onclick="statusbar()" shape="rect" coords="252,1588,1326,1676" target="_blank" alt="merriam dark image" />
+		<area onclick="lockscreen()" shape="rect" coords="254,1686,1318,1786" target="_blank" alt="merriam dark image" />
+		<area onclick="appswitcher()" shape="rect" coords="254,1800,1324,1884" target="_blank" alt="merriam dark image" />
+		<area onclick="blurs()" shape="rect" coords="252,1900,1322,1992" target="_blank" alt="merriam dark image" />
+		<area onclick="tweaksettings()" shape="rect" coords="258,2118,1324,2208" target="_blank" alt="merriam dark image" />
+	</map>
+
+	<script src="../scripts/indextweaks.js"></script>
+</body>
+</html>
