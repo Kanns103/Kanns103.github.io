@@ -8,6 +8,7 @@ var buttonsarrows = document.getElementsByClassName('buttonsarrows');
 var countdown = 3;
 var button1 = document.getElementById('button1');
 var button2 = document.getElementById('button2');
+var button3 = document.getElementById('button3');
 var count = 0;
 var count2 = 0;
 
