@@ -45,7 +45,7 @@ area {
 #buttonsgroup {
   height: 100px;
   position: absolute;
-  margin-left: 10px;
+  left: 15px;
   top: 50%;
   transform: translate(-50%);
   width: 10px;
@@ -66,3 +66,9 @@ area {
   pointer-events: none;
   opacity: 0.4;
 }
+
+/* #versiontweak {
+  position: absolute;
+  margin-top: 80px;
+  opacity: 0.5;
+} */

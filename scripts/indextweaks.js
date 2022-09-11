@@ -2,128 +2,151 @@
 
 imageMapResize();
 
-var tweakpic = document.getElementById('tweakpic');
+var tweakpicc = document.getElementById('tweakpic');
 var timeoutt = document.getElementById('timeout');
 var buttonsarrows = document.getElementsByClassName('buttonsarrows');
-var countdown = 3;
 var button1 = document.getElementById('button1');
-var button2 = document.getElementById('button2');
 var button3 = document.getElementById('button3');
+var versiontweak = document.getElementById('versiontweak');
 var count = 0;
+var counthome = 0;
+var countapps = 0;
+var countstatus = 0;
+var countlock = 0;
 var count2 = 0;
 
 function controlcentre() {
-  countdowntimer();
-  tweakpic.src = '../images/merriam/controlcentremockup.png';
-  setTimeout(function(){
-    tweakpic.src = '../images/merriam/merriamdarkmockup.png';
-  }, 3000);
+  enablebutton3();
+  // button2.style.opacity = '0.3';
+  // button2.style.pointerEvents = 'none';
+  tweakpicc.src = '../images/merriam/controlcentremockup.png';
 }
 function systemwide() {
+  count +=1;
   enablebuttons();
-  if(tweakpic.src == '../images/merriam/systemwide1.png') {
-  } else {
-    button2.style.opacity = '0.3';
-    button2.style.pointerEvents = 'none';
-  }
-  tweakpic.src = '../images/merriam/systemwide1.png';
+  // button2.style.opacity = '0.3';
+  // button2.style.pointerEvents = 'none';
+  tweakpicc.src = '../images/merriam/systemwide1.png';
 }
 function homescreen() {
-  countdowntimer();
-  tweakpic.src = '../images/merriam/controlcentremockup.png';
-  setTimeout(function(){
-    tweakpic.src = '../images/merriam/merriamdarkmockup.png';
-  }, 3000);
+  counthome+=1;
+  enablebuttons();
+  // button2.style.opacity = '0.3';
+  // button2.style.pointerEvents = 'none';
+  tweakpicc.src = '../images/merriam/homescreen1.png';
 }
 function apps() {
-  countdowntimer();
-  tweakpic.src = '../images/merriam/controlcentremockup.png';
-  setTimeout(function(){
-    tweakpic.src = '../images/merriam/merriamdarkmockup.png';
-  }, 3000);
+  countapps+=1;
+  enablebuttons();
+  // button2.style.opacity = '0.3';
+  // button2.style.pointerEvents = 'none';
+  tweakpicc.src = '../images/merriam/apps1.png';
 }
 function statusbar() {
-  countdowntimer();
-  tweakpic.src = '../images/merriam/controlcentremockup.png';
-  setTimeout(function(){
-    tweakpic.src = '../images/merriam/merriamdarkmockup.png';
-  }, 3000);
+  countstatus+=1;
+  enablebuttons();
+  // button2.style.opacity = '0.3';
+  // button2.style.pointerEvents = 'none';
+  tweakpicc.src = '../images/merriam/status1.png';
 }
 function lockscreen() {
-  countdowntimer();
-  tweakpic.src = '../images/merriam/controlcentremockup.png';
-  setTimeout(function(){
-    tweakpic.src = '../images/merriam/merriamdarkmockup.png';
-  }, 3000);
+  countlock+=1;
+  enablebuttons();
+  // button2.style.opacity = '0.3';
+  // button2.style.pointerEvents = 'none';
+  tweakpicc.src = '../images/merriam/lockscreen1.png';
 }
 function appswitcher() {
-  countdowntimer();
-  tweakpic.src = '../images/merriam/appswitcher.png';
-  setTimeout(function(){
-    tweakpic.src = '../images/merriam/merriamdarkmockup.png';
-  }, 3000);
+  enablebutton3();
+  // button2.style.opacity = '0.3';
+  // button2.style.pointerEvents = 'none';
+  tweakpicc.src = '../images/merriam/appswitcher.png';
 }
 function blurs() {
-  countdowntimer();
-  tweakpic.src = '../images/merriam/blurs.png';
-  setTimeout(function(){
-    tweakpic.src = '../images/merriam/merriamdarkmockup.png';
-  }, 3000);
+  enablebutton3();
+  // button2.style.opacity = '0.3';
+  // button2.style.pointerEvents = 'none';
+  tweakpicc.src = '../images/merriam/blurs.png';
 }
 function tweaksettings() {
-  countdowntimer();
-  tweakpic.src = '../images/merriam/tweaksettings.png';
-  setTimeout(function(){
-    tweakpic.src = '../images/merriam/merriamdarkmockup.png';
-  }, 3000);
+  enablebutton3();
+  // button2.style.opacity = '0.3';
+  // button2.style.pointerEvents = 'none';
+  tweakpicc.src = '../images/merriam/tweaksettings.png';
 }
 
-function upbuttonclick() {
-  count2 ++;
-  if(count2 == 1) {
-    tweakpic.src = '../images/merriam/systemwide2.png';
-  }
-  if(count2 == 2) {
-    tweakpic.src = '../images/merriam/systemwide1.png';
-    count2 -= 2;
-    button2.style.opacity = '0.3';
-    button2.style.pointerEvents = 'none';
-    button1.style.opacity = '1';
-    button1.style.pointerEvents = 'auto';
-  }
+function leftbuttonclick() {
+  count =0;
+  counthome =0;
+  countapps =0;
+  countstatus =0;
+  countlock =0;
+  tweakpicc.src = '../images/merriam/merriamdarkmockup.png';
+  button1.style.opacity = '0.3';
+  button1.style.pointerEvents = 'none';
+  // button2.style.opacity = '0.3';
+  // button2.style.pointerEvents = 'none';
+  button3.style.opacity = '0.3';
+  button3.style.pointerEvents = 'none';
 }
+
 function downbuttonclick() {
+
   count ++;
-  if(count == 1) {
-    tweakpic.src = '../images/merriam/systemwide2.png';
+  if(count === 2) {
+      tweakpic.src = '../images/merriam/systemwide2.png';
   }
-  if(count == 2) {
+  if(count === 3) {
+    counthome-= 1;
+    countapps-= 1;
+    countstatus-= 1;
+    countlock-= 1;
     tweakpic.src = '../images/merriam/systemwide3.png';
     count -= 2;
     button1.style.opacity = '0.3';
     button1.style.pointerEvents = 'none';
-    button2.style.opacity = '1';
-    button2.style.pointerEvents = 'auto';
+    // button2.style.opacity = '1';
+    // button2.style.pointerEvents = 'auto';
   }
-}
 
-function countdowntimer() {
-  setTimeout(function(){
-    countdown--;
-    timeoutt.innerHTML = countdown;
-  }, 1000);
-  setTimeout(function(){
-    countdown--;
-    timeoutt.innerHTML = countdown;
-  }, 2000);
-  setTimeout(function(){
-    countdown--;
-    timeoutt.innerHTML = countdown;
-  }, 3000);
-  setTimeout(function(){
-    timeoutt.innerHTML = '3';
-    countdown += '3';
-  }, 3200);
+  counthome ++;
+  if(counthome === 2) {
+    button1.style.opacity = '0.3';
+    button1.style.pointerEvents = 'none';
+  tweakpic.src = '../images/merriam/homescreen2.png';
+  counthome -=2;
+  }
+
+  countapps ++;
+  if(countapps === 2) {
+  tweakpic.src = '../images/merriam/apps2.png';
+  countstatus-= 1;
+  countlock-= 1;
+  }
+  if(countapps === 3) {
+    tweakpic.src = '../images/merriam/apps3.png';
+    countapps -= 2;
+    button1.style.opacity = '0.3';
+    button1.style.pointerEvents = 'none';
+    // button2.style.opacity = '1';
+    // button2.style.pointerEvents = 'auto';
+  }
+
+  countstatus ++;
+  if(countstatus === 2) {
+    button1.style.opacity = '0.3';
+    button1.style.pointerEvents = 'none';
+  tweakpic.src = '../images/merriam/status2.png';
+  countstatus -=2;
+  }
+
+  countlock ++;
+  if(countlock === 2) {
+    button1.style.opacity = '0.3';
+    button1.style.pointerEvents = 'none';
+  tweakpic.src = '../images/merriam/lockscreen2.png';
+  countlock -=2;
+  }
 }
 
 function enablebuttons() {
@@ -131,4 +154,8 @@ function enablebuttons() {
     buttonsarrows[i].style.opacity ='1';
     buttonsarrows[i].style.pointerEvents ='auto';
   }
+}
+function enablebutton3() {
+  button3.style.opacity ='1';
+  button3.style.pointerEvents ='auto';
 }
