@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
 body {
-  background-color: black;
+  background-color: rgb(20,25,30);
   font-family: 'Roboto', sans-serif;
   color: white;
 }
@@ -45,7 +45,8 @@ area {
 #buttonsgroup {
   height: 100px;
   position: absolute;
-  left: 15px;
+  left: 0;
+  margin-left: 15px;
   top: 50%;
   transform: translate(-50%);
   width: 10px;
@@ -72,3 +73,27 @@ area {
   margin-top: 80px;
   opacity: 0.5;
 } */
+
+#respringvideo {
+  width: 25px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+}
+
+#console {
+  color: black;
+  font-size: 20px;
+  font-family: monospace;
+  background-color: white;
+  position: absolute;
+  right: 0;
+  margin-top: 15px;
+  margin-right: 15px;
+  text-align: center;
+  width: 200px;
+  height: 50px;
+  border-radius: 5px;
+}

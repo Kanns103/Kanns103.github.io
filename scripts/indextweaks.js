@@ -8,6 +8,7 @@ var buttonsarrows = document.getElementsByClassName('buttonsarrows');
 var button1 = document.getElementById('button1');
 var button3 = document.getElementById('button3');
 var versiontweak = document.getElementById('versiontweak');
+var consoletext = document.getElementById('consoletext');
 var count = 0;
 var counthome = 0;
 var countapps = 0;
@@ -20,6 +21,7 @@ function controlcentre() {
   // button2.style.opacity = '0.3';
   // button2.style.pointerEvents = 'none';
   tweakpicc.src = '../images/merriam/controlcentremockup.png';
+  consoletext.innerHTML = 'Control Centre';
 }
 function systemwide() {
   count +=1;
@@ -27,6 +29,7 @@ function systemwide() {
   // button2.style.opacity = '0.3';
   // button2.style.pointerEvents = 'none';
   tweakpicc.src = '../images/merriam/systemwide1.png';
+  consoletext.innerHTML = 'System Wide';
 }
 function homescreen() {
   counthome+=1;
@@ -34,6 +37,7 @@ function homescreen() {
   // button2.style.opacity = '0.3';
   // button2.style.pointerEvents = 'none';
   tweakpicc.src = '../images/merriam/homescreen1.png';
+  consoletext.innerHTML = 'Home Screen';
 }
 function apps() {
   countapps+=1;
@@ -41,6 +45,7 @@ function apps() {
   // button2.style.opacity = '0.3';
   // button2.style.pointerEvents = 'none';
   tweakpicc.src = '../images/merriam/apps1.png';
+  consoletext.innerHTML = 'Apps';
 }
 function statusbar() {
   countstatus+=1;
@@ -48,6 +53,7 @@ function statusbar() {
   // button2.style.opacity = '0.3';
   // button2.style.pointerEvents = 'none';
   tweakpicc.src = '../images/merriam/status1.png';
+  consoletext.innerHTML = 'Status bar';
 }
 function lockscreen() {
   countlock+=1;
@@ -55,24 +61,28 @@ function lockscreen() {
   // button2.style.opacity = '0.3';
   // button2.style.pointerEvents = 'none';
   tweakpicc.src = '../images/merriam/lockscreen1.png';
+  consoletext.innerHTML = 'LockScreen';
 }
 function appswitcher() {
   enablebutton3();
   // button2.style.opacity = '0.3';
   // button2.style.pointerEvents = 'none';
   tweakpicc.src = '../images/merriam/appswitcher.png';
+  consoletext.innerHTML = 'App Switcher';
 }
 function blurs() {
   enablebutton3();
   // button2.style.opacity = '0.3';
   // button2.style.pointerEvents = 'none';
   tweakpicc.src = '../images/merriam/blurs.png';
+  consoletext.innerHTML = 'Blurs';
 }
 function tweaksettings() {
   enablebutton3();
   // button2.style.opacity = '0.3';
   // button2.style.pointerEvents = 'none';
   tweakpicc.src = '../images/merriam/tweaksettings.png';
+  consoletext.innerHTML = 'Tweak Settings';
 }
 
 function leftbuttonclick() {
@@ -88,13 +98,14 @@ function leftbuttonclick() {
   // button2.style.pointerEvents = 'none';
   button3.style.opacity = '0.3';
   button3.style.pointerEvents = 'none';
+  consoletext.innerHTML = 'Home page';
 }
 
 function downbuttonclick() {
 
   count ++;
   if(count === 2) {
-      tweakpic.src = '../images/merriam/systemwide2.png';
+    tweakpic.src = '../images/merriam/systemwide2.png';
   }
   if(count === 3) {
     counthome-= 1;
@@ -113,15 +124,15 @@ function downbuttonclick() {
   if(counthome === 2) {
     button1.style.opacity = '0.3';
     button1.style.pointerEvents = 'none';
-  tweakpic.src = '../images/merriam/homescreen2.png';
-  counthome -=2;
+    tweakpic.src = '../images/merriam/homescreen2.png';
+    counthome -=2;
   }
 
   countapps ++;
   if(countapps === 2) {
-  tweakpic.src = '../images/merriam/apps2.png';
-  countstatus-= 1;
-  countlock-= 1;
+    tweakpic.src = '../images/merriam/apps2.png';
+    countstatus-= 1;
+    countlock-= 1;
   }
   if(countapps === 3) {
     tweakpic.src = '../images/merriam/apps3.png';
@@ -136,16 +147,16 @@ function downbuttonclick() {
   if(countstatus === 2) {
     button1.style.opacity = '0.3';
     button1.style.pointerEvents = 'none';
-  tweakpic.src = '../images/merriam/status2.png';
-  countstatus -=2;
+    tweakpic.src = '../images/merriam/status2.png';
+    countstatus -=2;
   }
 
   countlock ++;
   if(countlock === 2) {
     button1.style.opacity = '0.3';
     button1.style.pointerEvents = 'none';
-  tweakpic.src = '../images/merriam/lockscreen2.png';
-  countlock -=2;
+    tweakpic.src = '../images/merriam/lockscreen2.png';
+    countlock -=2;
   }
 }
 
@@ -158,4 +169,17 @@ function enablebuttons() {
 function enablebutton3() {
   button3.style.opacity ='1';
   button3.style.pointerEvents ='auto';
+}
+
+function respring() {
+  var respringvideo = document.getElementById('respringvideo');
+  tweakpic.src = '../images/merriam/merriamrespring.png';
+  respringvideo.style.display = 'block';
+  respringvideo.play();
+  consoletext.innerHTML = 'Respring';
+  setTimeout(function(){
+    respringvideo.style.display = 'none';
+    tweakpic.src = '../images/merriam/merriamdarkmockup.png';
+    consoletext.innerHTML = 'Home page';
+  }, 3000);
 }

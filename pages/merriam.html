@@ -15,26 +15,33 @@
 		<!-- <p id="versiontweak">v0.1</p> -->
 	</div>
 
-	<h2 id="timeout">?</h2>
+	<!-- <h2 id="timeout">?</h2> -->
+
+	<div id="console">User at:<br><span id="consoletext">Home page</span></div>
 
 	<img usemap='#merriamdarkmap' alt="" id="tweakpic" src="../images/merriam/merriamdarkmockup.png">
-	<div id="buttonsgroup">
-	<button onclick="downbuttonclick()" class="buttonsarrows" id="button1">⬇</button>
-	<button onclick="leftbuttonclick()" class="buttonsarrows" id="button3">⬅</button>
-</div>
+	<video id="respringvideo">
+		<source src="../images/merriam/respring.mp4" type="video/mp4">
+		</video>
 
-	<map name="merriamdarkmap">
-		<area onclick="controlcentre()" shape="rect" coords="256,1174,1314,1270" target="_blank" alt="merriam dark image" />
-		<area onclick="systemwide()" shape="rect" coords="252,1280,1316,1370" target="_blank" alt="merriam dark image" />
-		<area onclick="homescreen()" shape="rect" coords="254,1388,1322,1474" target="_blank" alt="merriam dark image" />
-		<area onclick="apps()" shape="rect" coords="252,1478,1324,1578" target="_blank" alt="merriam dark image" />
-		<area onclick="statusbar()" shape="rect" coords="252,1588,1326,1676" target="_blank" alt="merriam dark image" />
-		<area onclick="lockscreen()" shape="rect" coords="254,1686,1318,1786" target="_blank" alt="merriam dark image" />
-		<area onclick="appswitcher()" shape="rect" coords="254,1800,1324,1884" target="_blank" alt="merriam dark image" />
-		<area onclick="blurs()" shape="rect" coords="252,1900,1322,1992" target="_blank" alt="merriam dark image" />
-		<area onclick="tweaksettings()" shape="rect" coords="258,2118,1324,2208" target="_blank" alt="merriam dark image" />
-	</map>
+		<div id="buttonsgroup">
+			<button onclick="downbuttonclick()" class="buttonsarrows" id="button1">⬇</button>
+			<button onclick="leftbuttonclick()" class="buttonsarrows" id="button3">⬅</button>
+		</div>
 
-	<script src="../scripts/indextweaks.js"></script>
-</body>
-</html>
+		<map name="merriamdarkmap">
+			<area onclick="controlcentre()" shape="rect" coords="256,1174,1314,1270" target="_blank" alt="merriam dark image" />
+			<area onclick="systemwide()" shape="rect" coords="252,1280,1316,1370" target="_blank" alt="merriam dark image" />
+			<area onclick="homescreen()" shape="rect" coords="254,1388,1322,1474" target="_blank" alt="merriam dark image" />
+			<area onclick="apps()" shape="rect" coords="252,1478,1324,1578" target="_blank" alt="merriam dark image" />
+			<area onclick="statusbar()" shape="rect" coords="252,1588,1326,1676" target="_blank" alt="merriam dark image" />
+			<area onclick="lockscreen()" shape="rect" coords="254,1686,1318,1786" target="_blank" alt="merriam dark image" />
+			<area onclick="appswitcher()" shape="rect" coords="254,1800,1324,1884" target="_blank" alt="merriam dark image" />
+			<area onclick="blurs()" shape="rect" coords="252,1900,1322,1992" target="_blank" alt="merriam dark image" />
+			<area onclick="tweaksettings()" shape="rect" coords="258,2118,1324,2208" target="_blank" alt="merriam dark image" />
+			<area onclick="respring()" shape="rect" coords="1213,366,1334,415" target="_blank" alt="merriam dark image" />
+		</map>
+
+		<script src="../scripts/indextweaks.js"></script>
+	</body>
+	</html>
